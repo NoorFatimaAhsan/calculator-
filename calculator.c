@@ -17,6 +17,11 @@ int main(){
      case 3 :
     printf("multiplication of %d and %d : %d",number1,number2,number1*number2);
     break;
+    case 4 :
+    printf("division of %d and %d: %d",number1,number2,number1/number2);
+    break;
+    default :
+    printf("Error");
    }
     getche();
     }
