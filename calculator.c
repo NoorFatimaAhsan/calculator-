@@ -14,6 +14,9 @@ int main(){
     case 2 :
     printf("subtraction of %d and %d: %d",number1,number2,number1-number2);
     break;
-    }
+     case 3 :
+    printf("multiplication of %d and %d : %d",number1,number2,number1*number2);
+    break;
+   }
     getche();
     }
