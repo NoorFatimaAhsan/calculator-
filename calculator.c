@@ -11,6 +11,9 @@ int main(){
     {case 1 :
     printf("addition of %d and %d: %d",number1,number2,number1+number2);
     break;
+    case 2 :
+    printf("subtraction of %d and %d: %d",number1,number2,number1-number2);
+    break;
     }
     getche();
     }
